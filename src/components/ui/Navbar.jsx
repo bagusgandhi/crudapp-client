@@ -12,7 +12,7 @@ export default function Navbar(){
         reset();
         localStorage.removeItem('auth');
         localStorage.removeItem('crd_ytkn');
-        navigate('/auth');
+        navigate('/');
         window.location.reload(false);
     }
     const menu = [
